@@ -1,8 +1,12 @@
+import jsIcon from "../assets/javascript.svg";
+
 export default function TechStack() {
-
-    const techDict: { [key: string]: string} = {};
-    techDict["JavaScript"] = "tbd"
-
+  const techDict: { [key: string]: any } = {};
+  techDict["JavaScript"] = jsIcon;
+  for (let key of Object.keys(techDict)) {
+    console.log(key);
+    console.log(techDict[key]);
+  }
   return (
     <>
       <div className="tech-container">
