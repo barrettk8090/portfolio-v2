@@ -1,4 +1,8 @@
 export default function TechStack() {
+
+    const techDict: { [key: string]: string} = {};
+    techDict["JavaScript"] = "tbd"
+
   return (
     <>
       <div className="tech-container">

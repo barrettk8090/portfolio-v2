@@ -23,6 +23,9 @@ export default function Projects() {
             <span className="tech-tag">Flask</span>{" "}
             <span className="tech-tag">Tailwind</span>{" "}
           </p>
+          <a href="https://github.com/barrettk8090/fundOS" target="_blank">
+            View on Github
+          </a>
         </div>
 
         <div className="project-card">
@@ -44,6 +47,9 @@ export default function Projects() {
             <span className="tech-tag">Flask</span>{" "}
             <span className="tech-tag">Postgres</span>{" "}
           </p>
+          <a href="https://github.com/barrettk8090/doomscroll" target="_blank">
+            View on Github
+          </a>
         </div>
 
         <div className="project-card">
@@ -60,6 +66,9 @@ export default function Projects() {
             <span className="tech-tag">JavaScript</span>{" "}
             <span className="tech-tag">Tailwind</span>{" "}
           </p>
+          <a href="https://github.com/barrettk8090/magNet" target="_blank">
+            View on Github
+          </a>
         </div>
 
         <div className="project-card">
@@ -68,6 +77,12 @@ export default function Projects() {
           <p>
             Status: <span className="status-tag"> Completed </span>
           </p>
+          <a
+            href="https://github.com/barrettk8090/book-tracker"
+            target="_blank"
+          >
+            View on Github
+          </a>
         </div>
 
         <div className="project-card">
@@ -87,6 +102,12 @@ export default function Projects() {
             <span className="tech-tag">Flask</span>{" "}
             <span className="tech-tag">SQLAlchemy</span>{" "}
           </p>
+          <a
+            href="https://github.com/barrettk8090/Sweat-Spectrum-FullStack-Project"
+            target="_blank"
+          >
+            View on Github
+          </a>
         </div>
       </div>
     </>

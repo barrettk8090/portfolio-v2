@@ -5,8 +5,7 @@ const Nav = () => {
       <li>About</li>
       <li>Projects</li>
       <li>Tech</li>
-      <li>Blog</li>
-      <li>Resume</li>
+      <li>Resume ↓</li>
     </ul>
   );
 };
