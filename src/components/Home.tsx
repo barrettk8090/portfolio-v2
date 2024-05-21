@@ -1,5 +1,6 @@
 import About from "./About";
 import Projects from "./Projects";
+import TechStack from "./TechStack";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </div>
       <About />
       <Projects />
+      <TechStack />
     </>
   );
 }

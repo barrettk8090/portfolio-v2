@@ -2,8 +2,10 @@ const Nav = () => {
   return (
     <ul>
       <li>Home</li>
-      <li>Projects</li>
       <li>About</li>
+      <li>Projects</li>
+      <li>Tech</li>
+      <li>Blog</li>
       <li>Resume</li>
     </ul>
   );
