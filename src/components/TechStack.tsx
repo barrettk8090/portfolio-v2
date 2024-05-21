@@ -2,6 +2,7 @@ import jsIcon from "../assets/javascript.svg";
 import tsIcon from "../assets/typescript.svg";
 
 export default function TechStack() {
+  // Dict for current tech stack knowledge for easy additions
   const techDict: { [key: string]: string } = {
     JavaScript: jsIcon,
     TypeScript: tsIcon,
@@ -20,6 +21,23 @@ export default function TechStack() {
     Bootstrap: "TBD",
     Auth0: "TBD",
   };
+  // Dict for teach I'm currently learning for easy swaps into current stack
+  const learningDict: { [key: string]: string } = {
+    Go: "TBD",
+    Docker: "TBD",
+    Kubernetes: "TBD",
+    Solidity: "TBD",
+    TypeScript: "TBD",
+  };
+  // Dict for storing other apps/services I'm familiar with
+  const experienceDict: { [key: string]: string } = {
+    Figma: "",
+    Shopify: "",
+    WordPress: "",
+    Contentful: "",
+    JIRA: "",
+    Linear: "",
+  };
 
   return (
     <>
@@ -30,57 +48,42 @@ export default function TechStack() {
         <div>
           {Object.keys(techDict).map((key) => (
             <div className="tech-box" key={key}>
-              <img src={techDict[key]} alt={key + " icon"} />
+              <img
+                className="tech-img"
+                src={techDict[key]}
+                alt={key + " icon"}
+              />
               <p>{key}</p>
             </div>
           ))}
         </div>
 
         <h4>Currently Learning</h4>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>TypeScript</p>
+        <div>
+          {Object.keys(learningDict).map((key) => (
+            <div className="tech-box" key={key}>
+              <img
+                className="tech-img"
+                src={learningDict[key]}
+                alt={key + " icon"}
+              />
+              <p>{key}</p>
+            </div>
+          ))}
         </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Go</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Solidity</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Docker</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Kubernetes</p>
-        </div>
+
         <h4>Experience With</h4>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Figma</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Shopify</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>WordPress</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Contentful</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>JIRA</p>
-        </div>
-        <div className="tech-box">
-          <img src="tbd" />
-          <p>Linear</p>
+        <div>
+          {Object.keys(experienceDict).map((key) => (
+            <div className="tech-box" key={key}>
+              <img
+                className="tech-img"
+                src={experienceDict[key]}
+                alt={key + " icon"}
+              />
+              <p>{key}</p>
+            </div>
+          ))}
         </div>
       </div>
     </>
