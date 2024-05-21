@@ -28,9 +28,10 @@ export default function Projects() {
         <div className="project-card">
           <h3>doomscroll</h3>
           <p>
-            We all need more good news. That's why I'm building doomscroll, that
-            scrapes the web to build custom feeds of some of the worst nightmare
-            scenarios that might lead to the impending doom of planet Earth.
+            We all need more good news. That's why I'm building doomscroll, an
+            app that scrapes the web to build custom feeds of some of the worst
+            nightmare scenarios that might lead to the impending doom of planet
+            Earth.
           </p>
           <p>
             Status: <span className="status-tag"> In Development </span>

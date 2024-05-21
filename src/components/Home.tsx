@@ -1,6 +1,7 @@
 import About from "./About";
 import Projects from "./Projects";
 import TechStack from "./TechStack";
+import Experience from "./Experience";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Projects />
       <TechStack />
+      <Experience />
     </>
   );
 }
