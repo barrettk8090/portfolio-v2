@@ -4,6 +4,7 @@ const Nav = () => {
       <li>Home</li>
       <li>Projects</li>
       <li>About</li>
+      <li>Resume</li>
     </ul>
   );
 };
