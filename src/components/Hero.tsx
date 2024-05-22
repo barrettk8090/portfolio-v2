@@ -7,7 +7,9 @@ export default function Hero() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis
         lacinia tellus.
       </h2>
-      <button className="hero-btn">barrettkowalsky@gmail.com ↗</button>
+      <a href="mailto:barrettkowalsky@gmail.com">
+        <button className="hero-btn">barrettkowalsky@gmail.com ↗</button>
+      </a>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 /* Global */
 
 #root {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -50,6 +50,11 @@ li {
 
 /* Hero */
 
+.hero-container{
+  height: 60vh;
+  border-bottom: 1px solid black;
+}
+
 .hero-btn{
   background-color: white; 
   font-family: UncutSans;
@@ -58,6 +63,14 @@ li {
   padding: 10px;
   border: 2px solid black;
   font-size: 20px;
+}
+
+
+
+.hero-btn:hover{
+  background-color: black;
+  color:white;
+  cursor:pointer;
 }
 
 /* About */
