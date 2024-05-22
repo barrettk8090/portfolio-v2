@@ -4,11 +4,22 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 /* Nav */
 
+.nav {
+  list-style: none;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 2rem;
+  float:right;
+}
 
 /* Hero */
 .card {
