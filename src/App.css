@@ -6,9 +6,32 @@
   padding: 2rem;
 }
 
+@font-face {
+  font-family: 'UncutSans';
+  src: url(./assets/UncutSans-Variable.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SatoshiMedium';
+  src: url(./assets/Satoshi-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'SatoshiRegular';
+  src: url(./assets/Satoshi-Regular.ttf);
+}
+
+p {
+  font-family: SatoshiMedium;
+}
+
+li {
+  font-family: SatoshiMedium;
+}
 /* Nav */
 
-.nav {
+.nav-container {
   list-style: none;
   height: 60px;
   display: flex;
@@ -20,14 +43,21 @@
 
 }
 
-.nav li {
+.nav-container li {
   margin-right: 3rem;
   float:right;
 }
 
 /* Hero */
-.card {
-  padding: 2em;
+
+.hero-btn{
+  background-color: white; 
+  font-family: UncutSans;
+  font-weight: 200;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  font-size: 20px;
 }
 
 /* About */

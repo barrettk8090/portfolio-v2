@@ -1,8 +1,13 @@
 export default function Hero() {
   return (
-    <div>
-      <h1>Hello, I'm Barrett Kowalsky 👋</h1>
-      <h2>A Software Engineer based in Denver, CO.</h2>
+    <div className="hero-container">
+      <h1>BARRETT KOWALSKY</h1>
+      <h1>SOFTWARE ENGINEER</h1>
+      <h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis
+        lacinia tellus.
+      </h2>
+      <button className="hero-btn">barrettkowalsky@gmail.com ↗</button>
     </div>
   );
 }

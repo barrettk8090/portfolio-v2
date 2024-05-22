@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <ul className="nav">
+    <ul className="nav-container">
       <li>Home</li>
       <li>About</li>
       <li>Projects</li>
