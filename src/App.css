@@ -6,6 +6,10 @@
   padding: 2rem;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'UncutSans';
   src: url(./assets/UncutSans-Variable.ttf);
@@ -22,8 +26,13 @@
   src: url(./assets/Satoshi-Regular.ttf);
 }
 
+h3 {
+  font-size: 1.8rem;;
+}
+
 p {
   font-family: SatoshiMedium;
+  font-size: 2rem;
 }
 
 li {
@@ -51,8 +60,12 @@ li {
 /* Hero */
 
 .hero-container{
-  height: 60vh;
+  width: 100%;
   border-bottom: 1px solid black;
+}
+
+.hero-container h2{
+  width: 50%;
 }
 
 .hero-btn{
@@ -60,9 +73,11 @@ li {
   font-family: UncutSans;
   font-weight: 200;
   border-radius: 10px;
-  padding: 10px;
-  border: 2px solid black;
+  padding: 20px;
+  border: 1.5px solid black;
   font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 
@@ -76,6 +91,30 @@ li {
 /* About */
 
 /* Projects */
+
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2px;
+  column-gap: 2px;
+  height:90vh;
+  width: 90vw;
+
+}
+
+.project-grid-item{
+  border: 1px solid gray;
+  padding:20px;
+  margin:0;
+}
+.project-grid-item h3{
+  text-align: center;
+}
+.project-grid-item p {
+  font-size: 1.4rem;
+}
+
 
 /* TechStack */
 .tech-img{

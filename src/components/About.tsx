@@ -4,7 +4,7 @@ export default function About() {
       <div className="about-container">
         <h2>About Me</h2>
         <p>
-          Hey there, I'm Barrett Kowalsky, a former project manager turned
+          Hey there 👋 I'm Barrett Kowalsky, a former project manager turned
           software engineer. I have experience in full stack software
           development, utilizing frontend technologies like React, JavaScript,
           TypeScript, and Tailwind – along with building robust databases and
