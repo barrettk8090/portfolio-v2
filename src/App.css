@@ -1,3 +1,5 @@
+/* Global */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,10 +7,28 @@
   text-align: center;
 }
 
+/* Nav */
+
+
+/* Hero */
 .card {
   padding: 2em;
 }
 
+/* About */
+
+/* Projects */
+
+/* TechStack */
 .tech-img{
+  min-width: 50px;
+  min-height: 50px;
   max-width: 50px;
+  max-height: 50px;
+  border: 1px solid black;
 }
+
+
+/* Experience */
+
+/* Footer */

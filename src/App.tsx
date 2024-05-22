@@ -2,7 +2,7 @@ import "./App.css";
 import Nav from "./Nav";
 import Home from "./components/Home";
 
-function App() {
+export default function App() {
   return (
     <>
       <Nav />
@@ -10,5 +10,3 @@ function App() {
     </>
   );
 }
-
-export default App;
