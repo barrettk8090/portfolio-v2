@@ -2,6 +2,7 @@ import fundOS from "../assets/fundOS.png";
 import doomscroll from "../assets/doomscroll.png";
 import magnet from "../assets/magnet.png";
 import sweatspectrum from "../assets/sweatspectrum.png";
+import gooderreads from "../assets/gooderreads.png";
 
 export default function Projects() {
   return (
@@ -31,7 +32,7 @@ export default function Projects() {
               <span className="tech-tag">Tailwind</span>{" "}
             </p>
             <a href="https://github.com/barrettk8090/fundOS" target="_blank">
-              View on Github
+              View on Github ↗
             </a>
           </div>
           <div className="project-grid-item-image">
@@ -60,7 +61,7 @@ export default function Projects() {
               href="https://github.com/barrettk8090/doomscroll"
               target="_blank"
             >
-              View on Github
+              View on Github ↗
             </a>
           </div>
           <div className="project-grid-item-image">
@@ -83,7 +84,7 @@ export default function Projects() {
               <span className="tech-tag">Tailwind</span>{" "}
             </p>
             <a href="https://github.com/barrettk8090/magNet" target="_blank">
-              View on Github
+              View on Github ↗
             </a>
           </div>
           <div className="project-grid-item-image">
@@ -99,11 +100,11 @@ export default function Projects() {
               href="https://github.com/barrettk8090/book-tracker"
               target="_blank"
             >
-              View on Github
+              View on Github ↗
             </a>
           </div>
           <div className="project-grid-item-image">
-            <img src={fundOS} />
+            <img src={gooderreads} />
           </div>
           <div className="project-grid-item-text">
             <h3>SweatSpectrum</h3>
@@ -127,7 +128,7 @@ export default function Projects() {
               href="https://github.com/barrettk8090/Sweat-Spectrum-FullStack-Project"
               target="_blank"
             >
-              View on Github
+              View on Github ↗
             </a>
           </div>
           <div className="project-grid-item-image">
