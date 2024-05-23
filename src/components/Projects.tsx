@@ -1,20 +1,18 @@
-import fundImg from "../assets/fund.jpg";
-import doomImg from "../assets/doomscroll.jpg";
-import magnetImg from "../assets/magnet.jpeg";
-import bookImg from "../assets/books.jpeg";
-import sweatImg from "../assets/sweaty.jpeg";
-import codeImg from "../assets/coding.jpeg";
+import fundOS from "../assets/fundOS.png";
+import doomscroll from "../assets/doomscroll.png";
+import magnet from "../assets/magnet.png";
+import sweatspectrum from "../assets/sweatspectrum.png";
 
 export default function Projects() {
   return (
     <>
       <div className="project-container">
-        <h2>Selected Projects</h2>
+        <h2>Projects</h2>
         <div className="project-grid">
-          <div className="project-grid-item">
-            <h3>FundOS</h3>
+          <div className="project-grid-item-text">
+            <h3>fundOS</h3>
             <p>
-              For my first foray into the world of building Ethereum smart
+              For my first venture into the world of building Ethereum smart
               contracts with Solidity, I developed a decentralized app (dApp)
               for a kickstarter-like crowdfunding website that actually posts
               projects to the blockchain.
@@ -36,7 +34,10 @@ export default function Projects() {
               View on Github
             </a>
           </div>
-          <div className="project-grid-item">
+          <div className="project-grid-item-image">
+            <img src={fundOS} />
+          </div>
+          <div className="project-grid-item-text">
             <h3>Doomscroll</h3>
             <p>
               We all need more good news. That's why I'm building doomscroll, an
@@ -62,7 +63,10 @@ export default function Projects() {
               View on Github
             </a>
           </div>
-          <div className="project-grid-item">
+          <div className="project-grid-item-image">
+            <img src={doomscroll} />
+          </div>
+          <div className="project-grid-item-text">
             <h3>Magnet</h3>
             <p>
               A place for creatives and small businesses to connect and help one
@@ -82,8 +86,10 @@ export default function Projects() {
               View on Github
             </a>
           </div>
-
-          <div className="project-grid-item">
+          <div className="project-grid-item-image">
+            <img src={magnet} />
+          </div>
+          <div className="project-grid-item-text">
             <h3>GooderReads</h3>
             <p>Track book progress.</p>
             <p>
@@ -96,8 +102,10 @@ export default function Projects() {
               View on Github
             </a>
           </div>
-          <div className="project-grid-item">
-            {/* <div className="overlay"> */}
+          <div className="project-grid-item-image">
+            <img src={fundOS} />
+          </div>
+          <div className="project-grid-item-text">
             <h3>SweatSpectrum</h3>
             <p>
               Built in collaboration with a former classmate, SweatSpectrum
@@ -121,10 +129,9 @@ export default function Projects() {
             >
               View on Github
             </a>
-            {/* </div> */}
           </div>
-          <div className="project-grid-item">
-            <h3> View more work on Github</h3>
+          <div className="project-grid-item-image">
+            <img src={sweatspectrum} />
           </div>
         </div>
       </div>

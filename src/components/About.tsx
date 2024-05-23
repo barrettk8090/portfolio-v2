@@ -9,7 +9,9 @@ export default function About() {
           development, utilizing frontend technologies like React, JavaScript,
           TypeScript, and Tailwind – along with building robust databases and
           APIs by leveraging tech such as Python, Flask, SQL, Postgres, and
-          Supabase.
+          Supabase. I'm passionate about solving complex problems, designing
+          clean and accessible products, and collaborating closely with other
+          engineers on important issues.
         </p>
 
         <p>
@@ -23,7 +25,7 @@ export default function About() {
         <p>
           My background in digital/web project managment means I have a unique
           blend of technical, strategic, and client-facing skills. I've worked
-          on large-scale ecommerce projects using Shopify Plus, as well as a
+          on large-scale ecommerce projects with Shopify Plus, as well as a
           suite of headless projects built on Contentful.
         </p>
       </div>
