@@ -2,9 +2,9 @@ export default function Footer() {
   return (
     <>
       <div className="footer-container">
-        <div className="email-me">
+        <div>
           <a href="mailto:barrettkowalsky@gmail.com">
-            <button>Send me an email</button>
+            <button className="email-me">Send me an email ↗</button>
           </a>
         </div>
         <div className="footer-links">

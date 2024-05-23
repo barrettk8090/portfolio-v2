@@ -4,7 +4,7 @@ export default function Experience() {
       <div className="experience-container">
         <h2>Experience</h2>
         <div className="experience-card">
-          <h4>Sirch</h4>
+          <h3>Sirch</h3>
           <h4>Software Engineer, Part-Time Volunteer</h4>
           <h4>Mar. 2024 – Present</h4>
           <ul>
@@ -24,7 +24,7 @@ export default function Experience() {
         </div>
 
         <div className="experience-card">
-          <h4>Flatiron School</h4>
+          <h3>Flatiron School</h3>
           <h4>Full-Stack Software Engineering Student</h4>
           <h4>Oct. 2023 – Feb. 2024</h4>
           <ul>
@@ -53,7 +53,7 @@ export default function Experience() {
         </div>
 
         <div className="experience-card">
-          <h4>Avex Designs</h4>
+          <h3>Avex Designs</h3>
           <h4>Sr. Digital Project Manager, E-Commerce</h4>
           <h4>Apr. 2019 – Nov. 2022</h4>
           <ul>
@@ -84,7 +84,7 @@ export default function Experience() {
         </div>
 
         <div className="experience-card">
-          <h4>AMP Agency</h4>
+          <h3>AMP Agency</h3>
           <h4>Digital Project Manager</h4>
           <h4>Aug. 2018 – Apr. 2019</h4>
           <ul>

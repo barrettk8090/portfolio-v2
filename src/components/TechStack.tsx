@@ -67,7 +67,7 @@ export default function TechStack() {
       <div className="tech-container">
         <h2>Tech Stack</h2>
 
-        <h4>Current Tech</h4>
+        <h3>Current Tech</h3>
         <div className="tech-spread">
           {Object.keys(techDict).map((key) => (
             <div className="tech-box" key={key}>
@@ -81,7 +81,7 @@ export default function TechStack() {
           ))}
         </div>
 
-        <h4>Currently Learning</h4>
+        <h3>Currently Learning</h3>
         <div className="tech-spread">
           {Object.keys(learningDict).map((key) => (
             <div className="tech-box" key={key}>
@@ -95,7 +95,7 @@ export default function TechStack() {
           ))}
         </div>
 
-        <h4>Experience With</h4>
+        <h3>Experience With</h3>
         <div className="tech-spread">
           {Object.keys(experienceDict).map((key) => (
             <div className="tech-box" key={key}>
