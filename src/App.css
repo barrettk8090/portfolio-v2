@@ -293,3 +293,61 @@ h4{
   color: white;
   cursor: pointer;
 }
+
+/* Responsive screens */
+
+@media screen and (max-width: 480px) {
+  /* Styles for small smartphones */
+  #root {
+    max-width: 480px;
+    margin: 0 ;
+    padding: 0rem 1rem 0rem 1rem
+  }
+
+  .nav-container{
+    max-width: 480px;
+  }
+
+  h1{
+    font-size: 3.8rem;
+    padding-bottom: 20px;
+  }
+
+  .hero-container{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 4rem;
+    padding-bottom: 40px;
+  }
+  
+  .hero-container h2{
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  
+  .hero-btn{
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-container{
+    padding-bottom:15px;
+    padding-top:15px;
+    max-width: 480px;
+  }
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for large smartphones and small tablets */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets and small desktops */
+}
+
+@media screen and (min-width: 1025px) {
+  /* Styles for large desktops and high-resolution screens */
+}
