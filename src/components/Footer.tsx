@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="footer-container">
         <div>
           <a href="mailto:barrettkowalsky@gmail.com">
-            <button className="email-me">Send me an email ↗</button>
+            <button className="email-me">Email Me ↗</button>
           </a>
         </div>
         <div className="footer-links">
