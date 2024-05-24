@@ -299,13 +299,13 @@ h4{
 @media screen and (max-width: 480px) {
   /* Styles for small smartphones */
   #root {
-    max-width: 480px;
+    max-width: 390px;
     margin: 0 ;
     padding: 0rem 1rem 0rem 1rem
   }
 
   .nav-container{
-    max-width: 480px;
+    max-width: 390px;
   }
 
   h1{
@@ -336,6 +336,17 @@ h4{
     padding-bottom:15px;
     padding-top:15px;
     max-width: 480px;
+  }
+
+
+
+  .experience-card{
+    max-width:100%;
+    padding-bottom: 10px;
+  }
+
+  .footer-container{
+    max-width: 390px;
   }
   
 }
