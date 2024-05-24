@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="hero-container">
+    <div id="home" className="hero-container">
       <h1>BARRETT KOWALSKY</h1>
       <h1>SOFTWARE ENGINEER</h1>
       <h2>

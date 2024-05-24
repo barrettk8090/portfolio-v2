@@ -7,7 +7,7 @@ import gooderreads from "../assets/gooderreads.png";
 export default function Projects() {
   return (
     <>
-      <div className="project-container">
+      <div id="projects" className="project-container">
         <h2>Projects</h2>
         <div className="project-grid">
           <div className="project-grid-item-text">

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="about-container">
+      <div id="about" className="about-container">
         <h2>About Me</h2>
         <p>
           Hey there 👋 I'm Barrett Kowalsky, a former project manager turned

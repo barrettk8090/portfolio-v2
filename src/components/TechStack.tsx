@@ -64,7 +64,7 @@ export default function TechStack() {
 
   return (
     <>
-      <div className="tech-container">
+      <div id="tech" className="tech-container">
         <h2>Tech Stack</h2>
 
         <h3>Current Tech</h3>

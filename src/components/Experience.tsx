@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <>
-      <div className="experience-container">
+      <div id="experience" className="experience-container">
         <h2>Experience</h2>
         <div className="experience-card">
           <h3>Sirch</h3>
