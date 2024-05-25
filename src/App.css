@@ -323,6 +323,7 @@ h4{
   .hero-container h2{
     width: 100%;
     font-size: 1.6rem;
+    padding-bottom: 20px;
   }
   
   .hero-btn{
@@ -338,7 +339,9 @@ h4{
     max-width: 480px;
   }
 
-
+  .project-container{
+    padding-top:15px;
+  }
 
   .experience-card{
     max-width:100%;
