@@ -9,7 +9,7 @@ export default function Experience() {
           <h4>Mar. 2024 – Present</h4>
           <ul>
             <li>
-              Leading frontend software development in React.js for an AI search
+              Lead frontend software development in React.js for an AI search
               tool that places a core emphasis on human ingenuity.
             </li>
             <li>
@@ -17,9 +17,7 @@ export default function Experience() {
               recording Sirch Coin transactions, which is a new digital
               currency.
             </li>
-            <li>
-              Integrating Stripe Payments API for purchase of Sirch Coins.
-            </li>
+            <li>Integrated Stripe Payments API for purchase of Sirch Coins.</li>
           </ul>
         </div>
 

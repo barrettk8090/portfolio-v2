@@ -3,6 +3,7 @@ import doomscroll from "../assets/doomscroll.png";
 import magnet from "../assets/magnet.png";
 import sweatspectrum from "../assets/sweatspectrum.png";
 import gooderreads from "../assets/gooderreads.png";
+import dimo from "../assets/dimo.png";
 
 export default function Projects() {
   return (
@@ -10,6 +11,32 @@ export default function Projects() {
       <div id="projects" className="project-container">
         <h2>Projects</h2>
         <div className="project-grid">
+          <div className="project-grid-item-text">
+            <h3>DIMO Python SDK (Open Source)</h3>
+            <p>
+              The DIMO Python Software Development Kit enables builders to
+              easily connect directly into the DIMO network, performing queries
+              on the existing REST APIs or through graphQL.
+            </p>
+            <p>
+              Status: <span className="status-tag"> In Development </span>
+            </p>
+            <p>
+              Tech: <span className="tech-tag">Python</span>{" "}
+              <span className="tech-tag">Web3</span>{" "}
+              <span className="tech-tag">graphQL</span>{" "}
+              <span className="tech-tag">requests</span>{" "}
+            </p>
+            <a
+              href="https://github.com/DIMO-Network/dimo-python-sdk"
+              target="_blank"
+            >
+              View on Github ↗
+            </a>
+          </div>
+          <div className="project-grid-item-image">
+            <img src={dimo} />
+          </div>
           <div className="project-grid-item-text">
             <h3>fundOS</h3>
             <p>
