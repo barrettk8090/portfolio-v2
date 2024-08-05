@@ -16,7 +16,7 @@ export default function Projects() {
             <p>
               The DIMO Python Software Development Kit enables builders to
               easily connect directly into the DIMO network, performing queries
-              on the existing REST APIs or through graphQL.
+              on the existing REST APIs or through GraphQL.
             </p>
             <p>
               Status: <span className="status-tag"> In Development </span>
