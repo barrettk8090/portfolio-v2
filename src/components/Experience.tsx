@@ -5,7 +5,7 @@ export default function Experience() {
         <h2>Experience</h2>
         <div className="experience-card">
           <h3>Sirch</h3>
-          <h4>Software Engineer, Part-Time Volunteer</h4>
+          <h4>Software Engineer</h4>
           <h4>Mar. 2024 – Present</h4>
           <ul>
             <li>

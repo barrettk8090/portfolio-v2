@@ -119,7 +119,13 @@ export default function Projects() {
           </div>
           <div className="project-grid-item-text">
             <h3>GooderReads</h3>
-            <p>Track book progress.</p>
+            <p>
+              A CLI tool for tracking books you've read, want to read, or are
+              currently reading. Get interesting stats on your shelf such as the
+              number of total pages you've read or get the completion percentage
+              of the book you're reading. For those who want GoodReads without
+              connecting to the internet!
+            </p>
             <p>
               Status: <span className="status-tag"> Completed </span>
             </p>
