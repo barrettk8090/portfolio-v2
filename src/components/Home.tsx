@@ -8,11 +8,13 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Projects />
-      <TechStack />
-      <Experience />
+      <div className="main-page">
+        <Hero />
+        <About />
+        <Projects />
+        <TechStack />
+        <Experience />
+      </div>
       <Footer />
     </>
   );

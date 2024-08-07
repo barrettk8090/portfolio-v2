@@ -1,10 +1,34 @@
 /* Global */
+:root {
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 #root {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0rem 2rem 0rem 2rem;
-  background-color: #26292C;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-areas:
+    "hero about"
+    "projects .";
 }
 
 * {
@@ -14,7 +38,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
-  color:white;
+  color:black;
 }
 
 @font-face {
@@ -33,13 +57,35 @@ h1, h2, h3, h4, h5, h6, p, li {
   src: url(./assets/Satoshi-Regular.ttf);
 }
 
+h1 {
+  font-size: 4.2em;
+  line-height: 1;
+  font-family: UncutSans;
+  margin: 0;
+}
+
+h2{
+  font-family: UncutSans;
+  font-size: 2.5em;
+  margin: 0;
+}
+
 h3 {
   font-size: 1.8rem;;
 }
 
+h3, h4{
+  font-family: SatoshiMedium;
+}
+
+h4{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
 p {
   font-family: SatoshiMedium;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 li {
@@ -52,71 +98,20 @@ a {
   color:black;
   text-decoration: inherit;
 }
-a:hover {
-  color: white;
-  background-color: black;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 6.2em;
-  line-height: 1.1;
-  font-family: UncutSans;
-  margin: 0;
-}
-
-h2{
-  font-family: UncutSans;
-  font-size: 2.5em;
-}
-
-h3, h4{
-  font-family: SatoshiMedium;
-}
-
-h4{
-  font-size: 1.2rem;
-  margin: 0;
-}
-
-/* Nav */
-
-.nav-container {
-  list-style: none;
-  height: 60px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin:0;
-  position: sticky;
-  top:0;
-  border-bottom: 1px solid black;
-  background-color: white;
-  z-index: 100;
-}
-
-.nav-container li {
-  margin-right: 3rem;
-  float:right;
-}
 
 /* Hero */
 
 .hero-container{
-  width: 100%;
-  border-bottom: 1px solid black;
-  margin-top:100px;
-  padding-bottom: 40px;
+  border: 1px solid black;
+  margin-top:40px;
+  padding: 40px;
+  align-self: start;
+  grid-area: hero;
 }
 
-.hero-container h2{
-  width: 50%;
+.hero-btn-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-btn{
@@ -124,13 +119,10 @@ h4{
   font-family: UncutSans;
   font-weight: 200;
   padding: 20px;
+  margin-top:20px;
   border: 1.5px solid black;
   font-size: 20px;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }
-
-
 
 .hero-btn:hover{
   background-color: black;
@@ -138,20 +130,29 @@ h4{
   cursor:pointer;
 }
 
+.hero-container,
+.about-container,
+.project-container {
+  align-self: start;
+}
+
 /* About */
 
 .about-container{
-  padding-bottom:90px;
-  padding-top:90px;
-  border-bottom: 1px solid black;
+  padding: 40px;
+  margin-top:40px;
+  border: 1px solid black;
+  align-self: start;
+  grid-area: about;
 }
 
 /* Projects */
 
 .project-container{
-  padding-top:90px;
-  padding-bottom:90px;
-  border-bottom: 1px solid black;
+  padding:40px;
+  border: 1px solid black;
+  align-self: start;
+  grid-area: projects;
 }
 
 .project-grid{
@@ -208,7 +209,8 @@ h4{
 /* TechStack */
 
 .tech-container{
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  padding: 40px;
 }
 
 .tech-spread {
@@ -488,9 +490,6 @@ h4{
 @media screen and (min-width: 1025px) {
   /* Styles for large desktops and high-resolution screens */
 
-  .about-container p {
-    font-size: 1.8rem;
-  }
   
   .project-grid-item-image img {
     max-width: 100%;
