@@ -1,9 +1,9 @@
-import fundOS from "../assets/fundOS.png";
-import doomscroll from "../assets/doomscroll.png";
-import magnet from "../assets/magnet.png";
-import sweatspectrum from "../assets/sweatspectrum.png";
-import gooderreads from "../assets/gooderreads.png";
-import dimo from "../assets/dimo.png";
+// import fundOS from "../assets/fundOS.png";
+// import doomscroll from "../assets/doomscroll.png";
+// import magnet from "../assets/magnet.png";
+// import sweatspectrum from "../assets/sweatspectrum.png";
+// import gooderreads from "../assets/gooderreads.png";
+// import dimo from "../assets/dimo.png";
 
 export default function Projects() {
   return (
@@ -12,7 +12,7 @@ export default function Projects() {
         <h2>Projects</h2>
         <div className="project-grid">
           <div className="project-grid-item-text">
-            <h3>DIMO Python SDK (Open Source)</h3>
+            <h3 className="project-title">DIMO Python SDK (Open Source)</h3>
             <p>
               The DIMO Python Software Development Kit enables builders to
               easily connect directly into the DIMO network, performing queries
@@ -21,7 +21,7 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> In Development </span>
             </p>
-            <p>
+            <p className="tech-container">
               Tech: <span className="tech-tag">Python</span>{" "}
               <span className="tech-tag">Web3</span>{" "}
               <span className="tech-tag">graphQL</span>{" "}
@@ -34,11 +34,8 @@ export default function Projects() {
               View on Github ↗
             </a>
           </div>
-          <div className="project-grid-item-image">
-            <img src={dimo} />
-          </div>
           <div className="project-grid-item-text">
-            <h3>fundOS</h3>
+            <h3 className="project-title">fundOS</h3>
             <p>
               For my first venture into the world of building Ethereum smart
               contracts with Solidity, I developed a decentralized app (dApp)
@@ -48,7 +45,7 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> In Development </span>
             </p>
-            <p>
+            <p className="tech-container">
               Tech: <span className="tech-tag">Solidity</span>{" "}
               <span className="tech-tag">Hardhat</span>{" "}
               <span className="tech-tag">JavaScript</span>{" "}
@@ -62,11 +59,8 @@ export default function Projects() {
               View on Github ↗
             </a>
           </div>
-          <div className="project-grid-item-image">
-            <img src={fundOS} />
-          </div>
           <div className="project-grid-item-text">
-            <h3>Doomscroll</h3>
+            <h3 className="project-title">Doomscroll</h3>
             <p>
               We all need more good news. That's why I'm building doomscroll, an
               app that scrapes the web to build custom feeds of some of the
@@ -76,7 +70,7 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> In Development </span>
             </p>
-            <p>
+            <p className="tech-container">
               Tech: <span className="tech-tag">React</span>{" "}
               <span className="tech-tag">JavaScript</span>{" "}
               <span className="tech-tag">Python</span>{" "}
@@ -91,11 +85,8 @@ export default function Projects() {
               View on Github ↗
             </a>
           </div>
-          <div className="project-grid-item-image">
-            <img src={doomscroll} />
-          </div>
           <div className="project-grid-item-text">
-            <h3>Magnet</h3>
+            <h3 className="project-title">Magnet</h3>
             <p>
               A place for creatives and small businesses to connect and help one
               another. An exploration into responsive frontend development, I
@@ -105,7 +96,7 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> Completed </span>
             </p>
-            <p>
+            <p className="tech-container">
               Tech: <span className="tech-tag">React</span>{" "}
               <span className="tech-tag">JavaScript</span>{" "}
               <span className="tech-tag">Tailwind</span>{" "}
@@ -114,11 +105,8 @@ export default function Projects() {
               View on Github ↗
             </a>
           </div>
-          <div className="project-grid-item-image">
-            <img src={magnet} />
-          </div>
           <div className="project-grid-item-text">
-            <h3>GooderReads</h3>
+            <h3 className="project-title">GooderReads</h3>
             <p>
               A CLI tool for tracking books you've read, want to read, or are
               currently reading. Get interesting stats on your shelf such as the
@@ -129,6 +117,10 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> Completed </span>
             </p>
+            <p className="tech-container">
+              Tech: <span className="tech-tag">Python</span>{" "}
+              <span className="tech-tag">Inquirer</span>{" "}
+            </p>
             <a
               href="https://github.com/barrettk8090/book-tracker"
               target="_blank"
@@ -136,11 +128,8 @@ export default function Projects() {
               View on Github ↗
             </a>
           </div>
-          <div className="project-grid-item-image">
-            <img src={gooderreads} />
-          </div>
           <div className="project-grid-item-text">
-            <h3>SweatSpectrum</h3>
+            <h3 className="project-title">SweatSpectrum</h3>
             <p>
               Built in collaboration with a former classmate, SweatSpectrum
               allows you to track your workout progress and visually understand
@@ -150,7 +139,7 @@ export default function Projects() {
             <p>
               Status: <span className="status-tag"> Completed </span>
             </p>
-            <p>
+            <p className="tech-container">
               Tech: <span className="tech-tag">React</span>{" "}
               <span className="tech-tag">JavaScript</span>{" "}
               <span className="tech-tag">Python</span>{" "}
@@ -163,9 +152,6 @@ export default function Projects() {
             >
               View on Github ↗
             </a>
-          </div>
-          <div className="project-grid-item-image">
-            <img src={sweatspectrum} />
           </div>
         </div>
       </div>

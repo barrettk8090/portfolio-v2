@@ -157,14 +157,6 @@ a {
   grid-area: projects;
 }
 
-.project-grid{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 40px;
-}
-
 .project-grid-item-text{
   padding-right:20px;
 }
@@ -179,11 +171,11 @@ a {
   display: flex; 
   justify-content: center;
 }
+
 .project-grid-item-image img{
   max-width: 80%;
   padding: 10px;
 }
-
 
 .project-grid-item{
   border: 1px solid black;
@@ -198,23 +190,26 @@ a {
   color:white;
   /* transition: background-color 0.4s ease; */
 }
-.project-grid-item h3{
-  text-align: center;
+
+.project-title{
+  padding-bottom: 15px;
+  border-bottom:1px solid black;
 }
+
 .project-grid-item p {
   font-size: 1.4rem;
   text-align: justify;
   padding:15px;
 }
 
+.project-button{
+  margin-bottom: 150px;
+}
 
 /* TechStack */
 
 .tech-container{
-  border: 1px solid black;
-  padding: 40px;
-  align-self: start;
-  grid-area: tech;
+  padding-bottom: 15px;
 }
 
 .tech-spread {
